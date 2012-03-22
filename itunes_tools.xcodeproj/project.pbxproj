@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBE11CEA151BBF95000F6BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11CE9151BBF95000F6BA5 /* Foundation.framework */; };
+		BBE11CED151BBF95000F6BA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE11CEC151BBF95000F6BA5 /* main.m */; };
+		BBE11CF1151BBF95000F6BA5 /* itunes_tools.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBE11CF0151BBF95000F6BA5 /* itunes_tools.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BBE11CE3151BBF95000F6BA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				BBE11CF1151BBF95000F6BA5 /* itunes_tools.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BBE11CE5151BBF95000F6BA5 /* itunes_tools */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = itunes_tools; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE11CE9151BBF95000F6BA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BBE11CEC151BBF95000F6BA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBE11CEF151BBF95000F6BA5 /* itunes_tools-Prefix.pch */ = {isa = PBXFileReference; path = "itunes_tools-Prefix.pch"; sourceTree = "<group>"; };
+		BBE11CF0151BBF95000F6BA5 /* itunes_tools.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = itunes_tools.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBE11CE2151BBF95000F6BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE11CEA151BBF95000F6BA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBE11CDA151BBF95000F6BA5 = {
+			isa = PBXGroup;
+			children = (
+				BBE11CEB151BBF95000F6BA5 /* itunes_tools */,
+				BBE11CE8151BBF95000F6BA5 /* Frameworks */,
+				BBE11CE6151BBF95000F6BA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBE11CE6151BBF95000F6BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBE11CE5151BBF95000F6BA5 /* itunes_tools */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBE11CE8151BBF95000F6BA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBE11CE9151BBF95000F6BA5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBE11CEB151BBF95000F6BA5 /* itunes_tools */ = {
+			isa = PBXGroup;
+			children = (
+				BBE11CEC151BBF95000F6BA5 /* main.m */,
+				BBE11CF0151BBF95000F6BA5 /* itunes_tools.1 */,
+				BBE11CEE151BBF95000F6BA5 /* Supporting Files */,
+			);
+			path = itunes_tools;
+			sourceTree = "<group>";
+		};
+		BBE11CEE151BBF95000F6BA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBE11CEF151BBF95000F6BA5 /* itunes_tools-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBE11CE4151BBF95000F6BA5 /* itunes_tools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBE11CF4151BBF95000F6BA5 /* Build configuration list for PBXNativeTarget "itunes_tools" */;
+			buildPhases = (
+				BBE11CE1151BBF95000F6BA5 /* Sources */,
+				BBE11CE2151BBF95000F6BA5 /* Frameworks */,
+				BBE11CE3151BBF95000F6BA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = itunes_tools;
+			productName = itunes_tools;
+			productReference = BBE11CE5151BBF95000F6BA5 /* itunes_tools */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBE11CDC151BBF95000F6BA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BBE11CDF151BBF95000F6BA5 /* Build configuration list for PBXProject "itunes_tools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BBE11CDA151BBF95000F6BA5;
+			productRefGroup = BBE11CE6151BBF95000F6BA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBE11CE4151BBF95000F6BA5 /* itunes_tools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBE11CE1151BBF95000F6BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE11CED151BBF95000F6BA5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BBE11CF2151BBF95000F6BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BBE11CF3151BBF95000F6BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BBE11CF5151BBF95000F6BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "itunes_tools/itunes_tools-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBE11CF6151BBF95000F6BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "itunes_tools/itunes_tools-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBE11CDF151BBF95000F6BA5 /* Build configuration list for PBXProject "itunes_tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE11CF2151BBF95000F6BA5 /* Debug */,
+				BBE11CF3151BBF95000F6BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBE11CF4151BBF95000F6BA5 /* Build configuration list for PBXNativeTarget "itunes_tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE11CF5151BBF95000F6BA5 /* Debug */,
+				BBE11CF6151BBF95000F6BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBE11CDC151BBF95000F6BA5 /* Project object */;
+}

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB6A6E22151BCD4100D702EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11CE9151BBF95000F6BA5 /* Foundation.framework */; };
+		BB6A6E25151BCD4100D702EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6A6E24151BCD4100D702EA /* main.m */; };
+		BB6A6E2E151BCD5600D702EA /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11D4C151BC178000F6BA5 /* ScriptingBridge.framework */; };
 		BBE11CFD151BBFA8000F6BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11CE9151BBF95000F6BA5 /* Foundation.framework */; };
 		BBE11D00151BBFA8000F6BA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE11CFF151BBFA8000F6BA5 /* main.m */; };
 		BBE11D12151BC024000F6BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11CE9151BBF95000F6BA5 /* Foundation.framework */; };
@@ -22,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		BB6A6E1E151BCD4100D702EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		BBE11CF9151BBFA8000F6BA5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,6 +73,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BB6A6E20151BCD4100D702EA /* add_to_itunes_library */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = add_to_itunes_library; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6A6E24151BCD4100D702EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB6A6E27151BCD4100D702EA /* add_to_itunes_library-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "add_to_itunes_library-Prefix.pch"; sourceTree = "<group>"; };
 		BBE11CE9151BBF95000F6BA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BBE11CEF151BBF95000F6BA5 /* itunes_tools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "itunes_tools-Prefix.pch"; sourceTree = "<group>"; };
 		BBE11CFB151BBFA8000F6BA5 /* itunes_selection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = itunes_selection; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +95,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BB6A6E1D151BCD4100D702EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6A6E2E151BCD5600D702EA /* ScriptingBridge.framework in Frameworks */,
+				BB6A6E22151BCD4100D702EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBE11CF8151BBFA8000F6BA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -119,6 +143,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB6A6E23151BCD4100D702EA /* add_to_itunes_library */ = {
+			isa = PBXGroup;
+			children = (
+				BB6A6E24151BCD4100D702EA /* main.m */,
+				BB6A6E26151BCD4100D702EA /* Supporting Files */,
+			);
+			path = add_to_itunes_library;
+			sourceTree = "<group>";
+		};
+		BB6A6E26151BCD4100D702EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB6A6E27151BCD4100D702EA /* add_to_itunes_library-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		BBE11CDA151BBF95000F6BA5 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +168,7 @@
 				BBE11D13151BC024000F6BA5 /* make_itunes_playlist */,
 				BBE11D2C151BC08A000F6BA5 /* itunes_add_missing */,
 				BBE11D41151BC0CC000F6BA5 /* build_itunes_playlists */,
+				BB6A6E23151BCD4100D702EA /* add_to_itunes_library */,
 				BBE11CE8151BBF95000F6BA5 /* Frameworks */,
 				BBE11CE6151BBF95000F6BA5 /* Products */,
 			);
@@ -139,6 +181,7 @@
 				BBE11D10151BC024000F6BA5 /* make_itunes_playlist */,
 				BBE11D29151BC08A000F6BA5 /* itunes_add_missing */,
 				BBE11D3E151BC0CC000F6BA5 /* build_itunes_playlists */,
+				BB6A6E20151BCD4100D702EA /* add_to_itunes_library */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,6 +283,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BB6A6E1F151BCD4100D702EA /* add_to_itunes_library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6A6E2C151BCD4100D702EA /* Build configuration list for PBXNativeTarget "add_to_itunes_library" */;
+			buildPhases = (
+				BB6A6E1C151BCD4100D702EA /* Sources */,
+				BB6A6E1D151BCD4100D702EA /* Frameworks */,
+				BB6A6E1E151BCD4100D702EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = add_to_itunes_library;
+			productName = add_to_itunes_library;
+			productReference = BB6A6E20151BCD4100D702EA /* add_to_itunes_library */;
+			productType = "com.apple.product-type.tool";
+		};
 		BBE11CFA151BBFA8000F6BA5 /* itunes_selection */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBE11D05151BBFA8000F6BA5 /* Build configuration list for PBXNativeTarget "itunes_selection" */;
@@ -332,11 +392,20 @@
 				BBE11D0F151BC024000F6BA5 /* make_itunes_playlist */,
 				BBE11D28151BC08A000F6BA5 /* itunes_add_missing */,
 				BBE11D3D151BC0CC000F6BA5 /* build_itunes_playlists */,
+				BB6A6E1F151BCD4100D702EA /* add_to_itunes_library */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BB6A6E1C151BCD4100D702EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6A6E25151BCD4100D702EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBE11CF7151BBFA8000F6BA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -372,6 +441,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		BB6A6E2A151BCD4100D702EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "add_to_itunes_library/add_to_itunes_library-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB6A6E2B151BCD4100D702EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "add_to_itunes_library/add_to_itunes_library-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		BBE11CF2151BBF95000F6BA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -508,6 +599,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BB6A6E2C151BCD4100D702EA /* Build configuration list for PBXNativeTarget "add_to_itunes_library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6A6E2A151BCD4100D702EA /* Debug */,
+				BB6A6E2B151BCD4100D702EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		BBE11CDF151BBF95000F6BA5 /* Build configuration list for PBXProject "itunes_tools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -524,6 +623,7 @@
 				BBE11D07151BBFA8000F6BA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBE11D1A151BC024000F6BA5 /* Build configuration list for PBXNativeTarget "make_itunes_playlist" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +632,7 @@
 				BBE11D1C151BC024000F6BA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBE11D33151BC08A000F6BA5 /* Build configuration list for PBXNativeTarget "itunes_add_missing" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +641,7 @@
 				BBE11D35151BC08A000F6BA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBE11D48151BC0CC000F6BA5 /* Build configuration list for PBXNativeTarget "build_itunes_playlists" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +650,7 @@
 				BBE11D4A151BC0CC000F6BA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

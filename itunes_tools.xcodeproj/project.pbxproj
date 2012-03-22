@@ -7,38 +7,112 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BBE11CEA151BBF95000F6BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11CE9151BBF95000F6BA5 /* Foundation.framework */; };
-		BBE11CED151BBF95000F6BA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE11CEC151BBF95000F6BA5 /* main.m */; };
-		BBE11CF1151BBF95000F6BA5 /* itunes_tools.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBE11CF0151BBF95000F6BA5 /* itunes_tools.1 */; };
+		BBE11CFD151BBFA8000F6BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11CE9151BBF95000F6BA5 /* Foundation.framework */; };
+		BBE11D00151BBFA8000F6BA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE11CFF151BBFA8000F6BA5 /* main.m */; };
+		BBE11D12151BC024000F6BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11CE9151BBF95000F6BA5 /* Foundation.framework */; };
+		BBE11D15151BC024000F6BA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE11D14151BC024000F6BA5 /* main.m */; };
+		BBE11D2B151BC08A000F6BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11CE9151BBF95000F6BA5 /* Foundation.framework */; };
+		BBE11D2E151BC08A000F6BA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE11D2D151BC08A000F6BA5 /* main.m */; };
+		BBE11D40151BC0CC000F6BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11CE9151BBF95000F6BA5 /* Foundation.framework */; };
+		BBE11D43151BC0CC000F6BA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE11D42151BC0CC000F6BA5 /* main.m */; };
+		BBE11D4D151BC178000F6BA5 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11D4C151BC178000F6BA5 /* ScriptingBridge.framework */; };
+		BBE11D4E151BC181000F6BA5 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11D4C151BC178000F6BA5 /* ScriptingBridge.framework */; };
+		BBE11D4F151BC188000F6BA5 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11D4C151BC178000F6BA5 /* ScriptingBridge.framework */; };
+		BBE11D50151BC18F000F6BA5 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11D4C151BC178000F6BA5 /* ScriptingBridge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BBE11CE3151BBF95000F6BA5 /* CopyFiles */ = {
+		BBE11CF9151BBFA8000F6BA5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				BBE11CF1151BBF95000F6BA5 /* itunes_tools.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BBE11D0E151BC024000F6BA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BBE11D27151BC08A000F6BA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BBE11D3C151BC0CC000F6BA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BBE11CE5151BBF95000F6BA5 /* itunes_tools */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = itunes_tools; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE11CE9151BBF95000F6BA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		BBE11CEC151BBF95000F6BA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BBE11CEF151BBF95000F6BA5 /* itunes_tools-Prefix.pch */ = {isa = PBXFileReference; path = "itunes_tools-Prefix.pch"; sourceTree = "<group>"; };
-		BBE11CF0151BBF95000F6BA5 /* itunes_tools.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = itunes_tools.1; sourceTree = "<group>"; };
+		BBE11CEF151BBF95000F6BA5 /* itunes_tools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "itunes_tools-Prefix.pch"; sourceTree = "<group>"; };
+		BBE11CFB151BBFA8000F6BA5 /* itunes_selection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = itunes_selection; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE11CFF151BBFA8000F6BA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBE11D02151BBFA8000F6BA5 /* itunes_selection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "itunes_selection-Prefix.pch"; sourceTree = "<group>"; };
+		BBE11D10151BC024000F6BA5 /* make_itunes_playlist */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = make_itunes_playlist; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE11D14151BC024000F6BA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBE11D17151BC024000F6BA5 /* make_itunes_playlist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "make_itunes_playlist-Prefix.pch"; sourceTree = "<group>"; };
+		BBE11D29151BC08A000F6BA5 /* itunes_add_missing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = itunes_add_missing; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE11D2D151BC08A000F6BA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBE11D30151BC08A000F6BA5 /* itunes_add_missing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "itunes_add_missing-Prefix.pch"; sourceTree = "<group>"; };
+		BBE11D3E151BC0CC000F6BA5 /* build_itunes_playlists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = build_itunes_playlists; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE11D42151BC0CC000F6BA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBE11D45151BC0CC000F6BA5 /* build_itunes_playlists-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "build_itunes_playlists-Prefix.pch"; sourceTree = "<group>"; };
+		BBE11D4B151BC0FB000F6BA5 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		BBE11D4C151BC178000F6BA5 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BBE11CE2151BBF95000F6BA5 /* Frameworks */ = {
+		BBE11CF8151BBFA8000F6BA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBE11CEA151BBF95000F6BA5 /* Foundation.framework in Frameworks */,
+				BBE11D4D151BC178000F6BA5 /* ScriptingBridge.framework in Frameworks */,
+				BBE11CFD151BBFA8000F6BA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE11D0D151BC024000F6BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE11D4E151BC181000F6BA5 /* ScriptingBridge.framework in Frameworks */,
+				BBE11D12151BC024000F6BA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE11D26151BC08A000F6BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE11D4F151BC188000F6BA5 /* ScriptingBridge.framework in Frameworks */,
+				BBE11D2B151BC08A000F6BA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE11D3B151BC0CC000F6BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE11D50151BC18F000F6BA5 /* ScriptingBridge.framework in Frameworks */,
+				BBE11D40151BC0CC000F6BA5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +123,10 @@
 			isa = PBXGroup;
 			children = (
 				BBE11CEB151BBF95000F6BA5 /* itunes_tools */,
+				BBE11CFE151BBFA8000F6BA5 /* itunes_selection */,
+				BBE11D13151BC024000F6BA5 /* make_itunes_playlist */,
+				BBE11D2C151BC08A000F6BA5 /* itunes_add_missing */,
+				BBE11D41151BC0CC000F6BA5 /* build_itunes_playlists */,
 				BBE11CE8151BBF95000F6BA5 /* Frameworks */,
 				BBE11CE6151BBF95000F6BA5 /* Products */,
 			);
@@ -57,7 +135,10 @@
 		BBE11CE6151BBF95000F6BA5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BBE11CE5151BBF95000F6BA5 /* itunes_tools */,
+				BBE11CFB151BBFA8000F6BA5 /* itunes_selection */,
+				BBE11D10151BC024000F6BA5 /* make_itunes_playlist */,
+				BBE11D29151BC08A000F6BA5 /* itunes_add_missing */,
+				BBE11D3E151BC0CC000F6BA5 /* build_itunes_playlists */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +146,7 @@
 		BBE11CE8151BBF95000F6BA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BBE11D4C151BC178000F6BA5 /* ScriptingBridge.framework */,
 				BBE11CE9151BBF95000F6BA5 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -73,8 +155,7 @@
 		BBE11CEB151BBF95000F6BA5 /* itunes_tools */ = {
 			isa = PBXGroup;
 			children = (
-				BBE11CEC151BBF95000F6BA5 /* main.m */,
-				BBE11CF0151BBF95000F6BA5 /* itunes_tools.1 */,
+				BBE11D4B151BC0FB000F6BA5 /* iTunes.h */,
 				BBE11CEE151BBF95000F6BA5 /* Supporting Files */,
 			);
 			path = itunes_tools;
@@ -88,24 +169,143 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BBE11CFE151BBFA8000F6BA5 /* itunes_selection */ = {
+			isa = PBXGroup;
+			children = (
+				BBE11CFF151BBFA8000F6BA5 /* main.m */,
+				BBE11D01151BBFA8000F6BA5 /* Supporting Files */,
+			);
+			path = itunes_selection;
+			sourceTree = "<group>";
+		};
+		BBE11D01151BBFA8000F6BA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBE11D02151BBFA8000F6BA5 /* itunes_selection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBE11D13151BC024000F6BA5 /* make_itunes_playlist */ = {
+			isa = PBXGroup;
+			children = (
+				BBE11D14151BC024000F6BA5 /* main.m */,
+				BBE11D16151BC024000F6BA5 /* Supporting Files */,
+			);
+			path = make_itunes_playlist;
+			sourceTree = "<group>";
+		};
+		BBE11D16151BC024000F6BA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBE11D17151BC024000F6BA5 /* make_itunes_playlist-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBE11D2C151BC08A000F6BA5 /* itunes_add_missing */ = {
+			isa = PBXGroup;
+			children = (
+				BBE11D2D151BC08A000F6BA5 /* main.m */,
+				BBE11D2F151BC08A000F6BA5 /* Supporting Files */,
+			);
+			path = itunes_add_missing;
+			sourceTree = "<group>";
+		};
+		BBE11D2F151BC08A000F6BA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBE11D30151BC08A000F6BA5 /* itunes_add_missing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBE11D41151BC0CC000F6BA5 /* build_itunes_playlists */ = {
+			isa = PBXGroup;
+			children = (
+				BBE11D42151BC0CC000F6BA5 /* main.m */,
+				BBE11D44151BC0CC000F6BA5 /* Supporting Files */,
+			);
+			path = build_itunes_playlists;
+			sourceTree = "<group>";
+		};
+		BBE11D44151BC0CC000F6BA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBE11D45151BC0CC000F6BA5 /* build_itunes_playlists-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BBE11CE4151BBF95000F6BA5 /* itunes_tools */ = {
+		BBE11CFA151BBFA8000F6BA5 /* itunes_selection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBE11CF4151BBF95000F6BA5 /* Build configuration list for PBXNativeTarget "itunes_tools" */;
+			buildConfigurationList = BBE11D05151BBFA8000F6BA5 /* Build configuration list for PBXNativeTarget "itunes_selection" */;
 			buildPhases = (
-				BBE11CE1151BBF95000F6BA5 /* Sources */,
-				BBE11CE2151BBF95000F6BA5 /* Frameworks */,
-				BBE11CE3151BBF95000F6BA5 /* CopyFiles */,
+				BBE11CF7151BBFA8000F6BA5 /* Sources */,
+				BBE11CF8151BBFA8000F6BA5 /* Frameworks */,
+				BBE11CF9151BBFA8000F6BA5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = itunes_tools;
-			productName = itunes_tools;
-			productReference = BBE11CE5151BBF95000F6BA5 /* itunes_tools */;
+			name = itunes_selection;
+			productName = itunes_selection;
+			productReference = BBE11CFB151BBFA8000F6BA5 /* itunes_selection */;
+			productType = "com.apple.product-type.tool";
+		};
+		BBE11D0F151BC024000F6BA5 /* make_itunes_playlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBE11D1A151BC024000F6BA5 /* Build configuration list for PBXNativeTarget "make_itunes_playlist" */;
+			buildPhases = (
+				BBE11D0C151BC024000F6BA5 /* Sources */,
+				BBE11D0D151BC024000F6BA5 /* Frameworks */,
+				BBE11D0E151BC024000F6BA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = make_itunes_playlist;
+			productName = make_itunes_playlist;
+			productReference = BBE11D10151BC024000F6BA5 /* make_itunes_playlist */;
+			productType = "com.apple.product-type.tool";
+		};
+		BBE11D28151BC08A000F6BA5 /* itunes_add_missing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBE11D33151BC08A000F6BA5 /* Build configuration list for PBXNativeTarget "itunes_add_missing" */;
+			buildPhases = (
+				BBE11D25151BC08A000F6BA5 /* Sources */,
+				BBE11D26151BC08A000F6BA5 /* Frameworks */,
+				BBE11D27151BC08A000F6BA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = itunes_add_missing;
+			productName = itunes_add_missing;
+			productReference = BBE11D29151BC08A000F6BA5 /* itunes_add_missing */;
+			productType = "com.apple.product-type.tool";
+		};
+		BBE11D3D151BC0CC000F6BA5 /* build_itunes_playlists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBE11D48151BC0CC000F6BA5 /* Build configuration list for PBXNativeTarget "build_itunes_playlists" */;
+			buildPhases = (
+				BBE11D3A151BC0CC000F6BA5 /* Sources */,
+				BBE11D3B151BC0CC000F6BA5 /* Frameworks */,
+				BBE11D3C151BC0CC000F6BA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = build_itunes_playlists;
+			productName = build_itunes_playlists;
+			productReference = BBE11D3E151BC0CC000F6BA5 /* build_itunes_playlists */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -128,17 +328,44 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBE11CE4151BBF95000F6BA5 /* itunes_tools */,
+				BBE11CFA151BBFA8000F6BA5 /* itunes_selection */,
+				BBE11D0F151BC024000F6BA5 /* make_itunes_playlist */,
+				BBE11D28151BC08A000F6BA5 /* itunes_add_missing */,
+				BBE11D3D151BC0CC000F6BA5 /* build_itunes_playlists */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BBE11CE1151BBF95000F6BA5 /* Sources */ = {
+		BBE11CF7151BBFA8000F6BA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBE11CED151BBF95000F6BA5 /* main.m in Sources */,
+				BBE11D00151BBFA8000F6BA5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE11D0C151BC024000F6BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE11D15151BC024000F6BA5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE11D25151BC08A000F6BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE11D2E151BC08A000F6BA5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE11D3A151BC0CC000F6BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE11D43151BC0CC000F6BA5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -165,7 +392,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -175,7 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -185,25 +412,95 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		BBE11CF5151BBF95000F6BA5 /* Debug */ = {
+		BBE11D06151BBFA8000F6BA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itunes_tools/itunes_tools-Prefix.pch";
+				GCC_PREFIX_HEADER = "itunes_selection/itunes_selection-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		BBE11CF6151BBF95000F6BA5 /* Release */ = {
+		BBE11D07151BBFA8000F6BA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itunes_tools/itunes_tools-Prefix.pch";
+				GCC_PREFIX_HEADER = "itunes_selection/itunes_selection-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBE11D1B151BC024000F6BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "make_itunes_playlist/make_itunes_playlist-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBE11D1C151BC024000F6BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "make_itunes_playlist/make_itunes_playlist-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBE11D34151BC08A000F6BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "itunes_add_missing/itunes_add_missing-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBE11D35151BC08A000F6BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "itunes_add_missing/itunes_add_missing-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBE11D49151BC0CC000F6BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "build_itunes_playlists/build_itunes_playlists-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBE11D4A151BC0CC000F6BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "build_itunes_playlists/build_itunes_playlists-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -220,11 +517,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBE11CF4151BBF95000F6BA5 /* Build configuration list for PBXNativeTarget "itunes_tools" */ = {
+		BBE11D05151BBFA8000F6BA5 /* Build configuration list for PBXNativeTarget "itunes_selection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBE11CF5151BBF95000F6BA5 /* Debug */,
-				BBE11CF6151BBF95000F6BA5 /* Release */,
+				BBE11D06151BBFA8000F6BA5 /* Debug */,
+				BBE11D07151BBFA8000F6BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBE11D1A151BC024000F6BA5 /* Build configuration list for PBXNativeTarget "make_itunes_playlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE11D1B151BC024000F6BA5 /* Debug */,
+				BBE11D1C151BC024000F6BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBE11D33151BC08A000F6BA5 /* Build configuration list for PBXNativeTarget "itunes_add_missing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE11D34151BC08A000F6BA5 /* Debug */,
+				BBE11D35151BC08A000F6BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBE11D48151BC0CC000F6BA5 /* Build configuration list for PBXNativeTarget "build_itunes_playlists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE11D49151BC0CC000F6BA5 /* Debug */,
+				BBE11D4A151BC0CC000F6BA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

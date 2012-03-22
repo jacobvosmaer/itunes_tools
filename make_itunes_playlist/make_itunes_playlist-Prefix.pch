@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'make_itunes_playlist' target in the 'make_itunes_playlist' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

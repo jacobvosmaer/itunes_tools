@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB608BD8151CA5EA009B9031 /* make_itunes_playlist.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBE65CE1151C865500D11CAC /* make_itunes_playlist.1 */; };
 		BB6A6E22151BCD4100D702EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11CE9151BBF95000F6BA5 /* Foundation.framework */; };
 		BB6A6E25151BCD4100D702EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6A6E24151BCD4100D702EA /* main.m */; };
 		BB6A6E2E151BCD5600D702EA /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11D4C151BC178000F6BA5 /* ScriptingBridge.framework */; };
@@ -51,6 +52,7 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
+				BB608BD8151CA5EA009B9031 /* make_itunes_playlist.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};

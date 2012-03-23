@@ -1,0 +1,67 @@
+.\"Modified from man(1) of FreeBSD, the NetBSD mdoc.template, and mdoc.samples.
+.\"See Also:
+.\"man mdoc.samples for a complete listing of options
+.\"man mdoc for the short list of editing options
+.\"/usr/share/misc/mdoc.template
+.Dd 22-03-12               \" DATE 
+.Dt make_itunes_playlist 1      \" Program name and manual section number 
+.Os Darwin
+.Sh NAME                 \" Section Header - required - don't modify 
+.Nm make_itunes_playlist
+.\" The following lines are read in generating the apropos(man -k) database. Use only key
+.\" words here as the database is built based on the words here and in the .ND line. 
+.\" Use .Nm macro to designate other names for the documented program.
+.Nd Create a new playlist in iTunes from the command line.
+.Sh SYNOPSIS             \" Section Header - required - don't modify
+.Nm
+.Ar playlist_name
+.\".Op Ar file                 \" Underlined argument - use .Ar anywhere to underline
+.Op Ar                 \" Arguments
+.Sh DESCRIPTION          \" Section Header - required - don't modify
+If iTunes is running,
+.Nm
+creates a new playlist and adds the listed files to it. If no filenames are provided, an empty playlist is created.
+.Pp                      \" Inserts a space
+.Bl -tag -width -indent   \" Begins a tagged list 
+.It                \" Each item preceded by .It macro
+.Ar playlist_name
+A UTF-8 encoded string which will be the name of the new playlist
+.It 
+.Ar file
+The path to a music file recognized by iTunes
+.El                      \" Ends the list
+.Pp
+.Sh RETURN VALUES
+Returns 1 if iTunes is not running; 0 on success.
+.Sh EXAMPLES
+To create a new playlist with two songs:
+.Pp
+.Bd -indent
+$ make_itunes_playlist "My Playlist" ~/Music/MySong.mp3 ./OtherSong.m4a
+.Ed
+.Pp
+.\" .Sh ENVIRONMENT      \" May not be needed
+.\" .Bl -tag -width "ENV_VAR_1" -indent \" ENV_VAR_1 is width of the string ENV_VAR_1
+.\" .It Ev ENV_VAR_1
+.\" Description of ENV_VAR_1
+.\" .It Ev ENV_VAR_2
+.\" Description of ENV_VAR_2
+.\" .El                      
+.\" .Sh DIAGNOSTICS       \" May not be needed
+.\" .Bl -diag
+.\" .It Diagnostic Tag
+.\" Diagnostic informtion here.
+.\" .It Diagnostic Tag
+.\" Diagnostic informtion here.
+.\" .El
+.Sh SEE ALSO 
+.\" List links in ascending order by section, alphabetically within a section.
+.\" Please do not reference files that do not exist without filing a bug report
+.Xr itunes_tools 1
+.Sh BUGS              \" Document known, unremedied bugs 
+Man page for
+.Xr itunes_tools 1
+is not yet implemented.
+.\" .Sh HISTORY           \" Document history if command behaves in a unique manner
+.Sh AUTHOR
+.An Jacob Vosmaer Aq contact@jacobvosmaer.nl

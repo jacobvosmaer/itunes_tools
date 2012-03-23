@@ -95,6 +95,7 @@
 		BBE11D4B151BC0FB000F6BA5 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
 		BBE11D4C151BC178000F6BA5 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 		BBE65CDE151C830500D11CAC /* itunes_selection.1 */ = {isa = PBXFileReference; explicitFileType = text.man; fileEncoding = 4; path = itunes_selection.1; sourceTree = "<group>"; };
+		BBE65CE1151C865500D11CAC /* make_itunes_playlist.1 */ = {isa = PBXFileReference; explicitFileType = text.man; fileEncoding = 4; path = make_itunes_playlist.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +239,7 @@
 			children = (
 				BBE11D14151BC024000F6BA5 /* main.m */,
 				BBE11D16151BC024000F6BA5 /* Supporting Files */,
+				BBE65CE1151C865500D11CAC /* make_itunes_playlist.1 */,
 			);
 			path = make_itunes_playlist;
 			sourceTree = "<group>";

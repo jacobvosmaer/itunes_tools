@@ -23,6 +23,7 @@
 		BBE11D4E151BC181000F6BA5 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11D4C151BC178000F6BA5 /* ScriptingBridge.framework */; };
 		BBE11D4F151BC188000F6BA5 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11D4C151BC178000F6BA5 /* ScriptingBridge.framework */; };
 		BBE11D50151BC18F000F6BA5 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE11D4C151BC178000F6BA5 /* ScriptingBridge.framework */; };
+		BBE21B49151CD8B600804C7F /* itunes_add_missing.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBE21B47151CD89C00804C7F /* itunes_add_missing.1 */; };
 		BBE65CE0151C853000D11CAC /* itunes_selection.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBE65CDE151C830500D11CAC /* itunes_selection.1 */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
+				BBE21B49151CD8B600804C7F /* itunes_add_missing.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -96,6 +98,7 @@
 		BBE11D45151BC0CC000F6BA5 /* build_itunes_playlists-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "build_itunes_playlists-Prefix.pch"; sourceTree = "<group>"; };
 		BBE11D4B151BC0FB000F6BA5 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
 		BBE11D4C151BC178000F6BA5 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		BBE21B47151CD89C00804C7F /* itunes_add_missing.1 */ = {isa = PBXFileReference; explicitFileType = text.man; fileEncoding = 4; path = itunes_add_missing.1; sourceTree = "<group>"; };
 		BBE65CDE151C830500D11CAC /* itunes_selection.1 */ = {isa = PBXFileReference; explicitFileType = text.man; fileEncoding = 4; path = itunes_selection.1; sourceTree = "<group>"; };
 		BBE65CE1151C865500D11CAC /* make_itunes_playlist.1 */ = {isa = PBXFileReference; explicitFileType = text.man; fileEncoding = 4; path = make_itunes_playlist.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -259,6 +262,7 @@
 			children = (
 				BBE11D2D151BC08A000F6BA5 /* main.m */,
 				BBE11D2F151BC08A000F6BA5 /* Supporting Files */,
+				BBE21B47151CD89C00804C7F /* itunes_add_missing.1 */,
 			);
 			path = itunes_add_missing;
 			sourceTree = "<group>";

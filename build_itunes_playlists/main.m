@@ -76,7 +76,7 @@ int main (int argc, const char * argv[])
                 for (NSString *filePath in linesInM3UFile) {
                     // validate line in m3u file
                     if ([filePath length] && ![filePath hasPrefix:M3U_COMMENT_PREFIX] && [filemanager fileExistsAtPath:filePath]) {
-                        [listOfNewURLs addObject:[[NSURL alloc] initFileURLWithPath:filePath]];
+                        [listOfNewURLs addObject:[[[NSURL alloc] initFileURLWithPath:filePath] absoluteURL]];
                     }
                 }
                 

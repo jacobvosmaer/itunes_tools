@@ -1,0 +1,6 @@
+.swo
+.swp
+build/
+*~
+itunes_tools.xcodeproj/project.xcworkspace/
+itunes_tools.xcodeproj/xcuserdata/

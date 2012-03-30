@@ -32,7 +32,7 @@
 		BB6A6E1E151BCD4100D702EA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/local/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
 			);
@@ -41,7 +41,7 @@
 		BBE11CF9151BBFA8000F6BA5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/local/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
 				BBE65CE0151C853000D11CAC /* itunes_selection.1 in CopyFiles */,
@@ -51,7 +51,7 @@
 		BBE11D0E151BC024000F6BA5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/local/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
 				BB608BD8151CA5EA009B9031 /* make_itunes_playlist.1 in CopyFiles */,
@@ -61,7 +61,7 @@
 		BBE11D27151BC08A000F6BA5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/local/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
 				BBE21B49151CD8B600804C7F /* itunes_add_missing.1 in CopyFiles */,
@@ -71,7 +71,7 @@
 		BBE11D3C151BC0CC000F6BA5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/local/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
 				BBE21B5C151D00E700804C7F /* build_itunes_playlists.1 in CopyFiles */,

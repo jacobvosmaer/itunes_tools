@@ -33,13 +33,13 @@ int main (int argc, const char * argv[])
             }
         }
         
-        NSString *inputString = [[NSString alloc] initWithData:[[NSFileHandle fileHandleWithStandardInput] readDataToEndOfFile]encoding:NSUTF8StringEncoding];
+        NSString *inputString = [[[NSString alloc] initWithData:[[NSFileHandle fileHandleWithStandardInput] readDataToEndOfFile]encoding:NSUTF8StringEncoding] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
         NSArray *inputItems = [inputString componentsSeparatedByString:@"\n"];
         NSMutableArray *newURLs = [[NSMutableArray alloc] init];
         for (NSString *aString in inputItems) {
             NSString *hash = hashForPath(aString, fileManager);
             if (![iTunesHashes containsObject:hash]) {
-                [newURLs addObject:[[NSURL alloc] initFileURLWithPath:aString]];
+                [newURLs addObject:[[[NSURL alloc] initFileURLWithPath:aString] absoluteURL]];
             }
         }
         printf("Adding %lu new items to iTunes library.\n", (unsigned long int)[newURLs count]);

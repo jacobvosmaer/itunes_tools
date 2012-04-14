@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'add_to_itunes_library' target in the 'add_to_itunes_library' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif

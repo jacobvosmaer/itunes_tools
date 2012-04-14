@@ -2,6 +2,7 @@
 
 ## Introduction
 These tools, written to be used with iTunes on Mac OS X, serve three purposes:
+
 - using iTunes as a GUI to select music files (`itunes_selection`);
 - creating new playlists in iTunes (`make_itunes_playlist` and
  `build_itunes_playlists`);

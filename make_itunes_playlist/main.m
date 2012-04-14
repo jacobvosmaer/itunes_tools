@@ -19,7 +19,7 @@ int main (int argc, const char * argv[])
         
         if ((argc < 2)) {
             printf("Usage: %s playlist_name file1 file2 ...\n", argv[0]);
-            return 1;
+            return 2;
         }
         
         iTunesApplication *iTunes = [SBApplication applicationWithBundleIdentifier:@"com.apple.iTunes"];

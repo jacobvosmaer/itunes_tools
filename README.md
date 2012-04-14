@@ -14,6 +14,11 @@ using a 32-bit Intel processor. However, I have only tested them on a
 64-bit 10.7 system. The source compiles with Xcode 4.3, but it may also
 work with earlier versions.
 
+## Installation
+Running the install.sh script will compile the source using Xcode, and
+install the binaries in `/usr/local/bin`, and the man pages (where
+existent) in `/usr/local/share/man`.
+
 ## Usage
 ### itunes_selection
 Select tracks in the main window of iTunes and run 

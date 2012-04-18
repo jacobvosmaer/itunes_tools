@@ -35,7 +35,10 @@ Running
     make_itunes_playlist "My Playlist" file1 file2 file3
 
  will create a new playlist in iTunes, titled "My Playlist (timestamp)",
-containing file1, file2 and file3 as its tracks.
+containing file1, file2 and file3 as its tracks. Alternatively, you can use
+`-` as an argument to read a list of paths from stdin:
+
+    find foo/ -iname "*.mp3" | make_itunes_playlist "My Playlist" -
 
 ### build_itunes_playlists
 Suppose you have a folder `foo/`, containing an m3u playlist `list.m3u`,

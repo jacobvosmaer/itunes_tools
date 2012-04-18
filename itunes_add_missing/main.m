@@ -38,7 +38,7 @@ int main (int argc, const char * argv[])
         NSMutableArray *newURLs = [[NSMutableArray alloc] init];
         for (NSString *aString in inputItems) {
             NSString *hash = hashForPath(aString, fileManager);
-            if (![iTunesHashes containsObject:hash]) {
+            if (hash && ![iTunesHashes containsObject:hash]) {
                 [newURLs addObject:[[[NSURL alloc] initFileURLWithPath:aString] absoluteURL]];
             }
         }

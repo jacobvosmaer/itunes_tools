@@ -20,7 +20,7 @@
 .Sh DESCRIPTION          \" Section Header - required - don't modify
 If iTunes is running,
 .Nm
-creates a new playlist and adds the listed files to it. If no filenames are provided, an empty playlist is created.
+creates a new playlist and adds the listed files to it. If no filenames are provided, an empty playlist is created. 
 .Pp                      \" Inserts a space
 .Bl -tag -width -indent   \" Begins a tagged list 
 .It                \" Each item preceded by .It macro
@@ -28,7 +28,9 @@ creates a new playlist and adds the listed files to it. If no filenames are prov
 A UTF-8 encoded string which will be the name of the new playlist
 .It 
 .Ar file
-The path to a music file recognized by iTunes
+The path to a music file recognized by iTunes. If
+.Ar -
+is the sole file argument, a newline-separated list of paths is read from stdin.
 .El                      \" Ends the list
 .Pp
 .Sh RETURN VALUES
@@ -38,6 +40,11 @@ To create a new playlist with two songs:
 .Pp
 .Bd -indent
 $ make_itunes_playlist "My Playlist" Song1.mp3 Song2.m4a
+.Ed
+.Pp
+To make a new playlist containing the paths fed through stdin:
+.Bd -indent
+$ make_itunes_playlist "My Playlist" -
 .Ed
 .Pp
 .\" .Sh ENVIRONMENT      \" May not be needed

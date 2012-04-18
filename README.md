@@ -63,3 +63,11 @@ Note that `itunes_add_missing` is a little slow to start because it collects
 the inodes of _all_ file tracks in your iTunes library when you run it.
 It does not check for doubles in its input.
 
+## Silly example
+Select some file tracks in iTunes and run
+
+    itunes_selection | make_itunes_playlist "Don't need no plus button" -
+
+to make a playlist out of them without using the "+" button in the lower
+left of the screen.
+

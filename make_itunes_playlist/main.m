@@ -51,6 +51,8 @@ int main (int argc, const char * argv[])
         for (NSString *path in listOfPaths) {
             if ([filemanager fileExistsAtPath:path]) {
                 [listOfTracks addObject:[NSURL fileURLWithPath:path]];
+            } else {
+                NSLog(@"Ignoring %@", path);
             }
         }
         [iTunes add:listOfTracks to:thePlaylist];

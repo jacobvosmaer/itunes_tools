@@ -73,10 +73,21 @@ int main (int argc, const char * argv[])
                 
                 NSArray *linesInM3UFile = [[NSString stringWithContentsOfURL:theURL encoding:NSUTF8StringEncoding error:NULL] componentsSeparatedByString:@"\n"];
                 NSMutableArray *listOfNewURLs = [NSMutableArray array];
+                NSURL *newURL;
+                NSURL *directoryURL = [theURL URLByDeletingLastPathComponent];
                 for (NSString *filePath in linesInM3UFile) {
-                    // validate line in m3u file
-                    if ([filePath length] && ![filePath hasPrefix:M3U_COMMENT_PREFIX] && [filemanager fileExistsAtPath:filePath]) {
-                        [listOfNewURLs addObject:[[[NSURL alloc] initFileURLWithPath:filePath] absoluteURL]];
+                    if ( ![filePath length] || [filePath hasPrefix:M3U_COMMENT_PREFIX]) {
+                        continue;
+                    }
+
+                    if (! [filePath hasPrefix:@"/"]) { // filePath is relative
+                        newURL = [directoryURL URLByAppendingPathComponent:filePath];
+                    } else {
+                        newURL = [[NSURL alloc] initFileURLWithPath:filePath];
+                    }
+
+                    if ([filemanager fileExistsAtPath:[newURL path]]) {
+                        [listOfNewURLs addObject:[newURL standardizedURL]];
                     }
                 }
                 

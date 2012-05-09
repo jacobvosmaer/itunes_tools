@@ -50,7 +50,7 @@ int main (int argc, const char * argv[])
         NSFileManager *filemanager = [NSFileManager defaultManager];
         for (NSString *path in listOfPaths) {
             if ([filemanager fileExistsAtPath:path]) {
-                [listOfTracks addObject:[NSURL fileURLWithPath:path]];
+                [listOfTracks addObject:[[NSURL fileURLWithPath:path] absoluteURL]];
             } else {
                 NSLog(@"Ignoring %@", path);
             }

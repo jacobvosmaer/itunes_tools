@@ -49,6 +49,7 @@ int main (int argc, const char * argv[])
         [userPlaylists addObject:rootFolderPlaylist];        
         NSMutableDictionary *iTunesPath = [NSMutableDictionary dictionaryWithObjectsAndKeys:rootFolderPlaylist, rootDirectory, nil];
         
+        NSURL *currentDirectoryURL = [NSURL fileURLWithPath: [filemanager currentDirectoryPath]];
         NSDirectoryEnumerator *directorEnumerator = [filemanager enumeratorAtURL:rootDirectory includingPropertiesForKeys:[NSArray arrayWithObject: NSURLIsDirectoryKey] options:NSDirectoryEnumerationSkipsHiddenFiles errorHandler:NULL];
         for (NSURL *theURL in directorEnumerator) {
             iTunesFolderPlaylist *parentFolderPlaylist = [iTunesPath objectForKey:[theURL URLByDeletingLastPathComponent]];
@@ -74,14 +75,13 @@ int main (int argc, const char * argv[])
                 NSArray *linesInM3UFile = [[NSString stringWithContentsOfURL:theURL encoding:NSUTF8StringEncoding error:NULL] componentsSeparatedByString:@"\n"];
                 NSMutableArray *listOfNewURLs = [NSMutableArray array];
                 NSURL *newURL;
-                NSURL *directoryURL = [theURL URLByDeletingLastPathComponent];
                 for (NSString *filePath in linesInM3UFile) {
                     if ( ![filePath length] || [filePath hasPrefix:M3U_COMMENT_PREFIX]) {
                         continue;
                     }
 
                     if (! [filePath hasPrefix:@"/"]) { // filePath is relative
-                        newURL = [directoryURL URLByAppendingPathComponent:filePath];
+                        newURL = [currentDirectoryURL URLByAppendingPathComponent:filePath];
                     } else {
                         newURL = [[NSURL alloc] initFileURLWithPath:filePath];
                     }
